@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(0, 0, 33);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.left{
+    font-size: 1.5rem;
+    margin-right: 78px;
+    font-weight: 800;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    height: 65px;
+    background-color:rgb(18, 18, 62)
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+   
+}
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+   
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+nav ul li a:hover{
+    color:rgb(69, 69, 134);
+    font-size: 1.2rem ;
+}
+#first_section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 60px 0;
+    
+}
+#first_section>div{
+    width: 34%;
+   
+}
+#left_section{
+    font-size: 2.6rem;
+    /* width: 35%; */
+}
+.buttun{
+    background-color: #003564;
+    color: white;
+    font-size: 22px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.buttun:hover{
+    background-color: white;
+    color:  #003564;
+}
+#right_section img{
+
+    width: 450px;
+    margin: 32px 0;
+}
+.purpule{
+    color: rgb(177, 121, 230);
+}
+.gray{
+    color: gray;
+}
+#element{
+    color:rgb(177, 121, 230) ;
+}
+main hr{
+    border: 0;
+    background-color: rgb(92, 123, 223);
+    height: 1.2px;
+    margin: 40px 85px;
+    
+}
+#second_section{
+    max-width: 80vw;
+    height: 100vh;
+    margin: auto;
+}
+#second_section  h1{
+    font-size: 1.6rem;
+}
+#second_section .box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+#second_section .vertical{
+    background-color: white;
+    width: 1px;
+    height: 95px;
+    margin: 0 90px;
+}
+.image-top{
+    width: 25px;
+    position: relative;
+    top: -24px;
+    right: 10px;
+}
+.sendpic{
+        position: relative;
+        top: -35px;
+}
+.javasc{
+    width: 32px;
+    position: relative;
+    top: -31px;
+    right: 15px;
+}
+.vertical-title{
+    position: relative;
+    top: 60px;
+    right: 18px;
+}
+.vertical-desc{
+    position: relative;
+    top: 75px;
+    color: gray;
+    width: 150px;
+    left: -50px;
+    font-size: 14px;
+}
+.footer{
+    background-color: rgb(11, 37, 60);
+    display: flex;
+    justify-content: space-evenly;
+    height: 160px;
+    padding: 40px 0;
+}
+footer{
+    background-color:rgb(11, 37, 60) ;
+}
+.footer ul{
+    list-style: none;
+}
+.footer-text{
+    text-align: center;
+  padding-bottom: 20px;
+}
+.footer>div{
+    width: 130px;
+}
